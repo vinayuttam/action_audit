@@ -36,7 +36,7 @@ module ActionAudit
 
     # Format the log entry
     formatted_message = if ActionAudit.log_formatter
-      ActionAudit.log_formatter.call(controller_path, action_name, interpolated_message)
+      ActionAudit.log_formatter.call(controller_path, action_name, interpolated_message, params)
     else
       "#{controller_path}/#{action_name} - #{interpolated_message}"
     end
