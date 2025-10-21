@@ -1,0 +1,17 @@
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+
+# Gem-specific customizations
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - '*.gemspec'
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'lib/action_audit/version.rb'

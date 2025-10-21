@@ -1,0 +1,25 @@
+===============================================================================
+
+ActionAudit has been installed!
+
+Next steps:
+
+1. Include ActionAudit in your controllers:
+
+   class ApplicationController < ActionController::Base
+     include ActionAudit
+   end
+
+   Or include it in specific controllers:
+
+   class Admin::UsersController < ApplicationController
+     include ActionAudit
+   end
+
+2. Edit config/audit.yml to define your audit messages
+
+3. Customize logging in config/initializers/action_audit.rb (optional)
+
+4. Test your setup by triggering a controller action and checking your logs
+
+===============================================================================

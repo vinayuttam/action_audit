@@ -1,0 +1,30 @@
+# ActionAudit configuration file
+# This file defines audit messages for your controllers
+# Organize by controller namespace and action
+
+# Example structure:
+# namespace:
+#   controller:
+#     action: "Message with %{param} interpolation"
+
+# Example audit messages
+# Uncomment and customize as needed
+
+# admin:
+#   users:
+#     create: "Created user %{email}"
+#     update: "Updated user %{id}"
+#     destroy: "Deleted user %{id}"
+#   accounts:
+#     create: "Created account %{name}"
+#     update: "Updated account %{id}"
+
+# sessions:
+#   create: "User logged in with %{email}"
+#   destroy: "User logged out"
+
+# posts:
+#   create: "Created post '%{title}'"
+#   update: "Updated post %{id}"
+#   publish: "Published post %{id}"
+#   unpublish: "Unpublished post %{id}"
