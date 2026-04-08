@@ -3,7 +3,7 @@
 require_relative "lib/action_audit/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "action_audit"
+  spec.name = "action-audit"
   spec.version = ActionAudit::VERSION
   spec.authors = [ "Vinay Uttam Vemparala" ]
   spec.email = [ "15381417+vinayuttam@users.noreply.github.com" ]
